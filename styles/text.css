@@ -1,0 +1,18 @@
+
+
+/* Colors */
+
+/* .txt-white{
+    color: white
+} */
+
+/* Fonts */
+
+h1{
+    margin:auto;
+    padding:auto;
+    text-align: center;
+    font-family: 'Titan One', cursive; ;
+    font-size: 72px;
+    color: rgb(211, 208, 212);
+}
