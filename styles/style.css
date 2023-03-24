@@ -8,11 +8,19 @@
 
 /* Fonts */
 
-h1{
+h1, h3 {
     margin:auto;
     padding:auto;
     text-align: center;
-    font-family: 'Titan One', cursive; ;
+    font-family: 'Titan One', cursive; 
     font-size: 72px;
     color: rgb(211, 208, 212);
+}
+
+h3 {
+    font-size: 32px;
+    margin: 10px;
+}
+p {
+    font-family: 'Titan One', cursive;
 }
