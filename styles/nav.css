@@ -1,28 +1,39 @@
 nav {
-margin: 0 20px 0 20px;
-}
-
-nav,
-ul {
+  margin: 0 10px 0 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-nav ul li {
+.logo-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.nav-li {
   text-decoration: none;
-
   display: flex;
   padding: 10px;
 }
-nav a {
-    text-align: center;
-    font-family: 'Titan One', cursive; ;
-    font-size: 30px;
-    color: rgb(211, 208, 212);
+.nav-button {
+  text-align: center;
+  font-family: "Titan One", cursive;
+  font-size: 30px;
+  color: rgb(211, 208, 212);
 }
-nav a:hover{
-    background: -webkit-linear-gradient(rgb(0, 246, 0),#ff00d9,rgb(255, 153, 0), #00ccff, rgb(118, 0, 181));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.nav-button:hover {
+  background: -webkit-linear-gradient(
+    rgb(0, 246, 0),
+    #ff00d9,
+    rgb(255, 153, 0),
+    #00ccff,
+    rgb(118, 0, 181)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-/* . Webkit is an open-source browser engine (Safari/Chrome) that supports CSS. Basically opens the doors for more creativity and sharing, which in this case I'm using a text mask to make the text transparent and then setting the text background to the rainbow gradiant */
+/* . Webkit is an open-source browser engine (Safari/Chrome) that supports CSS. Basically opens the doors for more creativity and sharing, which in this case I'm using a text mask/clip to make the text transparent and then setting the text background to the rainbow gradiant */

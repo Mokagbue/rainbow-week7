@@ -1,26 +1,117 @@
-
-
-/* Colors */
-
-/* .txt-white{
-    color: white
-} */
-
-/* Fonts */
-
-h1, h3 {
-    margin:auto;
-    padding:auto;
-    text-align: center;
-    font-family: 'Titan One', cursive; 
-    font-size: 72px;
-    color: rgb(211, 208, 212);
+.header {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-family: "Titan One", cursive;
+  font-size: 72px;
+  color: rgb(211, 208, 212);
 }
 
-h3 {
-    font-size: 32px;
-    margin: 10px;
+.header-three {
+  font-size: 32px;
+  margin: 10px;
 }
-p {
-    font-family: 'Titan One', cursive;
+
+/* home page buttons */
+.button {
+  width: 4rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(211, 208, 212);
+  font-family: "Titan One", cursive;
 }
+
+/* Red Button */
+.button-red {
+  background-color: red;
+}
+.button-red:hover {
+  background-color: rgb(126, 0, 0);
+}
+
+/* orange Button */
+.button-orange {
+  background-color: rgb(255, 140, 0);
+}
+.button-orange:hover {
+  background-color: rgb(200, 83, 0);
+}
+/* yellow Button */
+.button-yellow {
+  background-color: yellow;
+}
+.button-yellow:hover {
+  background-color: rgb(168, 149, 5);
+}
+/* green Button */
+.button-green {
+  background-color: rgb(1, 183, 1);
+}
+.button-green:hover {
+  background-color: rgb(2, 95, 0);
+}
+/* blue Button */
+.button-blue {
+  background-color: blue;
+}
+.button-blue:hover {
+  background-color: rgb(1, 1, 81);
+}
+/* purple Button */
+.button-purple {
+  background-color: rgb(110, 0, 161);
+}
+.button-purple:hover {
+  background-color: rgb(56, 0, 86);
+}
+/* pink Button */
+.button-pink {
+  background-color: rgb(255, 0, 247);
+}
+.button-pink:hover {
+  background-color: rgb(86, 0, 49);
+}
+
+/* rainbow buttons */
+.rainbow-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  border: red solid 1px;
+}
+.rainbow-list li {
+  display: flex;
+  text-decoration: none;
+}
+.pic-textbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.paragraph {
+  font-family: "Titan One", cursive;
+  color: rgb(211, 208, 212);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.paragraph:hover {
+    background: -webkit-linear-gradient(
+      rgb(0, 246, 0),
+      #ff00d9,
+      rgb(255, 153, 0),
+      #00ccff,
+      rgb(118, 0, 181)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
