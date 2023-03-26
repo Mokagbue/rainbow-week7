@@ -30,6 +30,8 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+/* Home Page Stylings */
 /* home page buttons */
 .button {
   width: 4rem;
@@ -42,7 +44,6 @@
   color: rgb(211, 208, 212);
   font-family: "Titan One", cursive;
 }
-
 /* Red Button */
 .button-red {
   background-color: red;
@@ -50,7 +51,6 @@
 .button-red:hover {
   background-color: rgb(126, 0, 0);
 }
-
 /* orange Button */
 .button-orange {
   background-color: rgb(255, 140, 0);
@@ -155,6 +155,7 @@
 }
 
 
+
 /* About Page */
 .about-p {
   display: flex;
@@ -203,6 +204,8 @@
 .about-table tr:nth-child(even) {
   background-color: rgb(92, 92, 92);
 }
+
+
 
 
 /* Contact Page Styles */
