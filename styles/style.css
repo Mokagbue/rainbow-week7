@@ -145,7 +145,7 @@
 }
 
 /* image stylings */
-.img-box{
+.img-box {
   display: flex;
   justify-content: center;
 }
@@ -153,6 +153,7 @@
   margin: 10px;
   box-shadow: 10px 5px 5px rgb(28, 28, 28) ;
 }
+
 
 /* About Page */
 .about-p {
@@ -190,7 +191,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.about-table tr:hover{
+.about-table tr:hover {
   background: -webkit-linear-gradient(
     rgb(0, 246, 0),
     #ff00d9,
@@ -199,23 +200,24 @@
     rgb(118, 0, 181)
   );
 }
-.about-table tr:nth-child(even){
+.about-table tr:nth-child(even) {
   background-color: rgb(92, 92, 92);
 }
 
+
 /* Contact Page Styles */
-.contact-box{
+.contact-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.form-box{
+.form-box {
   margin: 0 auto 0 auto ;
   padding: 20px;
   background-color: rgb(57, 57, 57);
   border: 1px solid rgb(211, 208, 212);
 }
-.form-labels{
+.form-labels {
   font-family: "Signika", sans-serif;
   color: rgb(211, 208, 212);
   font-size: 1rem;
