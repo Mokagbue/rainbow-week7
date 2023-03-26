@@ -1,8 +1,9 @@
 nav {
-  margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* background-color: rgb(57, 57, 57); */
 }
 .logo-img{
   display: flex;

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="../../styles/rainbow.css" />
     <link rel="stylesheet" href="../../styles/style.css" />
     <link rel="stylesheet" href="../../styles/nav.css" />
+    <link rel="stylesheet" href="../../styles/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,32 +15,88 @@
 <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <a target="_blank" href="https://www.flaticon.com/free-icons/rainbow" title="rainbow icons"><img src="../../images/rainbow.png" width="65"/></a>
-      <ul>
-        <li><a href="../../index.html">Home</a></li>
-        <li><a href="../About/about.html">About</a></li>
-        <li><a href="../Contact/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="block glow"><h1>Contact</h1></div>
-      <div>
-        <h3>Join our Rainbow Mailing List!</h3>
-        <form>
-          <label for="emial">Email:</label><br />
-          <input type="text" id="email" /><br />
-          <p>How did you hear about us?</p>
-          <input type="checkbox" id="google" name="google" value="" />
-          <label for="google"> Google</label><br />
-          <input type="checkbox" id="wordOfM" name="wordOM" value="" />
-          <label for="wordOM">Word of mouth</label><br />
-          <input type="checkbox" id="other" name="rainbowmagic" value="" />
-          <label for="other">A rainbow lead you here</label><br />
-          <input type="submit" value="submit" />
-        </form>
+    <div id="main-container">
+      <nav>
+        <a
+          target="_blank"
+          href="https://www.flaticon.com/free-icons/rainbow"
+          title="rainbow icons"
+          class="logo-img"
+          ><img src="../../images/rainbow.png" width="65"
+        /></a>
+        <ul class="nav-ul">
+          <li class="nav-li"><a href="../../index.html" class="nav-button">Home</a></li>
+          <li class="nav-li"><a href="../About/about.html" class="nav-button">About</a></li>
+          <li class="nav-li"><a href="../Contact/contact.html" class="nav-button">Contact</a></li>
+        </ul>
+      </nav>
+        <div class="block glow"><h1 class="header header-one">Contact</h1></div>
+        <div class="contact-box">
+          <h3 class="header header-three">Join our Rainbow Mailing List!</h3>
+          <form class="form-box">
+            <label class="form-labels" for="emial">Email:</label><br />
+            <input type="text" id="email" /><br />
+            <p class="form-labels">How did you hear about us?</p>
+            <input type="checkbox" id="google" name="google" value="" />
+            <label class="form-labels" for="google"> Google</label><br />
+            <input type="checkbox" id="wordOfM" name="wordOM" value="" />
+            <label class="form-labels" for="wordOM">Word of mouth</label><br />
+            <input type="checkbox" id="other" name="rainbowmagic" value="" />
+            <label class="form-labels" for="other">A rainbow lead you here</label><br />
+            <input type="submit" value="submit" />
+          </form>
+        </div>
+        <div class="img-box"><image class="rainbow-img" alt="freepik" src="https://img.freepik.com/free-vector/paper-rainbow-element-cute-weather-clipart-vector-yellow-background_53876-135908.jpg?w=500&t=st=1679172530~exp=1679173130~hmac=bbb2c45a4ab0f016cd7d811b4d7f89c43589f8b36f8ab54a5305a32bc8e26bc6" /></div>
+        <footer>
+          <div id="footer-layout">
+            <ul class="footer-nav">
+              <li class="nav-li">
+                <a href="../../index.html" class="footer-button">Home</a>
+              </li>
+              <li class="nav-li">
+                <a href="../About/about.html" class="footer-button">About</a>
+              </li>
+              <li class="nav-li">
+                <a href="../Contact/contact.html" class="footer-button"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div class="footer-nav">
+              <img
+                class="socials"
+                alt="social"
+                src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
+                width="50"
+                height="50"
+              />
+              <img
+                class="socials"
+                alt="social"
+                src="https://cdn-icons-png.flaticon.com/512/10180/10180748.png"
+                width="50"
+                height="50"
+              />
+              <img
+                class="socials"
+                alt="social"
+                src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
+                width="50"
+                height="50"
+              />
+              <img
+                class="socials"
+                alt="social"
+                src="https://cdn-icons-png.flaticon.com/512/10161/10161957.png"
+                width="50"
+                height="50"
+              />
+            </div>
+  
+            <div><p class="copyright">COPYRIGHT @MOK23</p></div>
+          </div>
+        </footer>
       </div>
-      <div><image alt="freepik" src="https://img.freepik.com/free-vector/paper-rainbow-element-cute-weather-clipart-vector-yellow-background_53876-135908.jpg?w=500&t=st=1679172530~exp=1679173130~hmac=bbb2c45a4ab0f016cd7d811b4d7f89c43589f8b36f8ab54a5305a32bc8e26bc6" /></div>
     </div>
   </body>
 </html>

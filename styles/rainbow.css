@@ -3,13 +3,24 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(57, 57, 57);
+   
+    background: rgb(63, 94, 251);
+     background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(146, 199, 85, 1) 36%,
+      rgba(159, 78, 192, 1) 68%,
+      rgba(252, 70, 107, 1) 100%
+    );
 }
 .block {
     position: relative;
-    margin: 10% auto 0;
-    width: 50%;
+    margin: auto;
+    width: 75%;
     height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(0deg, black, rgb(91, 91, 91));
 }
 .glow::before , .glow::after {
@@ -23,6 +34,7 @@ body{
     height: calc(100% + 5px);
     z-index: -1;
     animation: animate 20s linear infinite;
+    
 }
 @keyframes animate {
     0%{

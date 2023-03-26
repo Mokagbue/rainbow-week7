@@ -1,15 +1,33 @@
+#main-container {
+  margin: 0 auto 0 auto;
+  border: 8px solid rgb(57, 57, 57);
+  max-width: 1000px;
+}
+
 .header {
-  margin: auto;
-  padding: auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Titan One", cursive;
-  font-size: 72px;
+  font-size: 3em;
   color: rgb(211, 208, 212);
 }
 
 .header-three {
+  color: rgb(57, 57, 57);
   font-size: 32px;
   margin: 10px;
+}
+.header-three:hover {
+  background: -webkit-linear-gradient(
+    rgb(0, 246, 0),
+    #ff00d9,
+    rgb(255, 153, 0),
+    #00ccff,
+    rgb(118, 0, 181)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* home page buttons */
@@ -83,35 +101,123 @@
   justify-content: space-around;
   align-items: center;
   padding: 0;
-  border: red solid 1px;
 }
 .rainbow-list li {
   display: flex;
   text-decoration: none;
 }
-.pic-textbox {
+
+/* home grid */
+.home-grid {
+  background-color: rgb(57, 57, 57);
+  padding: auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.home-p {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
 }
 .paragraph {
-  font-family: "Titan One", cursive;
+  font-family: "Signika", sans-serif;
   color: rgb(211, 208, 212);
-  font-size: 3rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  flex-wrap: wrap;
+  /* width: 300px; */
+  margin: 20px;
 }
 .paragraph:hover {
-    background: -webkit-linear-gradient(
-      rgb(0, 246, 0),
-      #ff00d9,
-      rgb(255, 153, 0),
-      #00ccff,
-      rgb(118, 0, 181)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  background: -webkit-linear-gradient(
+    rgb(0, 246, 0),
+    #ff00d9,
+    rgb(255, 153, 0),
+    #00ccff,
+    rgb(118, 0, 181)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* image stylings */
+.img-box{
+  display: flex;
+  justify-content: center;
+}
+.rainbow-img {
+  margin: 10px;
+  box-shadow: 10px 5px 5px rgb(28, 28, 28) ;
+}
+
+/* About Page */
+.about-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(57, 57, 57);
+  margin-top: 20px;
+}
+/* About Page table stlyes */
+.table-div {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+.about-table {
+  border: solid rgb(211, 208, 212) 1px;
+  border-collapse: collapse;
+  min-width: 400px;
+  background-color: rgb(57, 57, 57);
+}
+.about-table tr th {
+  font-family: "Titan One", cursive;
+  font-size: 2rem;
+  color: rgb(211, 208, 212);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: solid rgb(211, 208, 212) 1px;
+}
+.about-table tr td {
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+  color: rgb(211, 208, 212);
+  border: solid rgb(211, 208, 212) 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.about-table tr:hover{
+  background: -webkit-linear-gradient(
+    rgb(0, 246, 0),
+    #ff00d9,
+    rgb(255, 153, 0),
+    #00ccff,
+    rgb(118, 0, 181)
+  );
+}
+.about-table tr:nth-child(even){
+  background-color: rgb(92, 92, 92);
+}
+
+/* Contact Page Styles */
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-box{
+  margin: 0 auto 0 auto ;
+  padding: 20px;
+  background-color: rgb(57, 57, 57);
+  border: 1px solid rgb(211, 208, 212);
+}
+.form-labels{
+  font-family: "Signika", sans-serif;
+  color: rgb(211, 208, 212);
+  font-size: 1rem;
+  margin: 5px;
+}

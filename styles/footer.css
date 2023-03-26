@@ -1,0 +1,32 @@
+#footer-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(146, 199, 85, 1) 36%,
+    rgba(159, 78, 192, 1) 68%,
+    rgba(252, 70, 107, 1) 100%
+  ); */
+  border: 8px solid rgb(57, 57, 57);;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+.footer-button {
+  text-align: center;
+  font-family: "Titan One", cursive;
+  font-size: 1.3rem;
+  color: rgb(211, 208, 212);
+}
+.copyright {
+    font-family: "Titan One", cursive;
+    font-size: .5rem;
+    color: rgb(211, 208, 212);
+    margin-top: 10px;
+}
